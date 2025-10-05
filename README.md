@@ -5,7 +5,7 @@ This project presents a machine learning framework to classify protein sequences
 1.  **Deep Features:** Semantic and structural features (embeddings) are extracted from protein sequences using **ProtBERT-BFD**, a powerful protein language model.
 2.  **Chemical Features:** 365 different physicochemical features are calculated for the proteins, including amino acid composition, hydrophobicity, and polarity, based on the iTTCA-RF method.
 
-These two feature sets are combined ("hybrid features") to train and evaluate several classification models, including Convolutional Neural Networks (CNN), XGBoost, and Random Forest.
+These two feature sets are combined ("hybrid features") to train and evaluate several classification models, including Convolutional Neural Networks (CNN), XGBoost.
 
 ---
 
