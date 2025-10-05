@@ -1,5 +1,4 @@
-# DeepT-Hybrid: Deep Learning and Hybrid Features for Protein Classification
-
+# DeepT-HybridXGB: Deep Learning for Predicting Tumor T cell Antigens
 This project presents a machine learning framework to classify protein sequences as "Positive" or "Negative". The project utilizes a hybrid feature extraction method that combines two different approaches:
 
 1.  **Deep Features:** Semantic and structural features (embeddings) are extracted from protein sequences using **ProtBERT-BFD**, a powerful protein language model.
@@ -17,7 +16,7 @@ Multiple models were trained and tested to find the best-performing approach. Th
 | :------------------------------ | :--------------------------------- | :-------------: |
 | iTTCA-RF (Random Forest) | Chemical Features Only | ~86% |
 | DeepT-i (Inception CNN) | ProtBERT Deep Features Only | ~87% |
-| DeepT-Hybrid-Inception (CNN) | **Hybrid** (ProtBERT + Chemical) | ~88% |
+| DeepT-Hybrid (Inception CNN) | **Hybrid** (ProtBERT + Chemical) | ~88% |
 | **DeepT-Hybrid-XGB (XGBoost)** | **Hybrid** (ProtBERT + Chemical) | **~90.7%** |
 
 The best performance was achieved by the **DeepT-Hybrid-XGB** model, which leverages the combined power of deep and chemical features with an XGBoost classifier.
